@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Selektory</title>
+
+        <style>
+            * {color: darkblue;}                           /*Wszyksto*/
+            div > p {font-size: 35px;}                       /*Dziecko p div'a (Jedna gałązka w dół)*/
+            div a {font-family: sans-serif;}                 /*Wszystkie p, które są pod div (Jedna i więcej gałęzi w dół)*/
+            p + b {font-weight: lighter;}                    /*b na tej samej gałęzi ZARAZ PRZY p*/
+            p ~ b {font-style: italic;}                      /*b na tej samej gałęzi co p*/
+            #xd {text-align: center;}                        /*znacznik, który na identyfikator "xd"*/
+            .abc {text-decoration: underline;}               /*znaczniki, które są w klasie "abc"*/
+            p.abc {text-decoration: line-through;}           /*znaczniki p, które są w klasie "abc*/
+            [name] {text-align: end;}                        /*Znaczniki z atrybutem name */
+            [name="imie"] {text-shadow: 2px 2px 5px gray;} /*Znaczkiki8 z atrybutem name o treści "imie"*/
+        </style>
+
+    </head>
+
+
+    <body>
+        <div>
+            <h2>napis h w div</h2>
+            <p>napis p w div</p>
+            <cos>
+                <p class="abc">napis p w cos w div</p>
+            </cos>
+            <link name="imie" href="https://music.youtube.com/">link do Muzyki</link>
+        </div>  
+
+        <br><br><br>
+
+        <nav>
+            <h2>napis h w nav</h2>
+            <p id="xd">napis p w nav</p>
+            <b>napis b w nav</b> <br/>
+            <b class="abc">2 napis b w nav</b> <br><br>
+            <link name="Andrzej" href="https://github.com/Tadijas1">link do GitHub</link>
+        </nav>
+    </body>
+</html>
