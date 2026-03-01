@@ -4,15 +4,15 @@
         <meta charset="utf-8">
 
         <style>
-            ol > li:nth-of-type(1) { /*Pierwszy element znaczników li, które są dziećmi ol*/
+            ol > li:nth-of-type(1) {                                         /*Pierwszy element znaczników li, które są dziećmi ol*/
                 color: pink;
             }
-            ul > li:first-child { /*Pierwsze dziecko ul, które ma znacznik li*/
+            ul > li:first-child {                                            /*Pierwsze dziecko ul, które ma znacznik li*/
                 letter-spacing: 10px;}
-            ul > li:last-child {font-size: 2em;} /*Ostatnie dziecko ul, które ma znacznik li*/
-            li:last-of-type{text-decoration: line-through;} /*W każdym ul, czy ol ostatni element li*/
+            ul > li:last-child {font-size: 2em;}                             /*Ostatnie dziecko ul, które ma znacznik li*/
+            li:last-of-type{text-decoration: line-through;}                  /*W każdym ul, czy ol ostatni element li*/
             li:nth-of-type(odd):hover{background-color: mediumaquamarine;} /*Elementy nieparzyste znaczników li, jak na nie najedziesz myszką*/
-            li:nth-of-type(even):active {background-color: mediumorchid;} /*Elementy parzyste znaczników li, jak klikniesz i przytrzymasz na nich myszkę*/
+            li:nth-of-type(even):active {background-color: mediumorchid;}  /*Elementy parzyste znaczników li, jak klikniesz i przytrzymasz na nich myszkę*/
         </style>
 
     </head>
@@ -39,6 +39,7 @@
 
 <!--
 WAŻNE KOMENDY:
+
 - HOVER:    Najechanie na napis
 - ACTIVATE: Przytrzymanie napisu
 - VISITED:  Linki, które się już odwiedziło
@@ -51,5 +52,15 @@ WAŻNE KOMENDY:
 - (ODD):                    Element nieparzysty
 - (EVEN):                   Element parzysty
 
-!NA PAMIĘĆ!
+!NA PAMIĘĆ! ^^^^^^^^^^^^^
+
+- justify-content: Wyrównuje elementy z atrybutem flex wzdłuż głownej osi.
+- align-items:     Wyrównuje elementy z atrybutem flex wzdłuż osi poprzecznych.
+- align-self:      Wyrównuje element z atrybutem flex wzdłuż osi poprzecznych nadpisując wartość właściwości align-items.
+- order:           Określa kolejność elementów z atrybutem flex.
+- flex-flow:       Skrócona wersja flex-direction i flex-wrap.
+- align-content:   Wyrównuje wiersze wewnątrz kontenera z atrybutem flex w przypadku gdy na osiach poprzecznych jest dodatkowe miejsce.
+
+!TO NIE WIEM CZY BĘDZIE! ^^^^^^^^^^^^^
+
 -->
