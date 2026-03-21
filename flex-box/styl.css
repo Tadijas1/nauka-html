@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Ś, .LG, .PG { /*BRAK MARGINESU*/
+    margin: 0;
+}
+
+.Ś { /*TYTÓŁ STRONY (napis na środku)*/
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.LG { /*SEKCJA PO LEWEJ (napis po pewej)*/
+    height: 80vh;
+    width: 70%;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.PG { /*SEKCJA PO PRAWEJ (napis po lewej)*/
+    height: 80vh;
+    width: 30%;
+    background-color: green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
