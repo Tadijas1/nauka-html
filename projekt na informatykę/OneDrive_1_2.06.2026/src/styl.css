@@ -89,16 +89,36 @@ section{
         url('../pictures/background-główna.jpg') center/cover;
 }
 
+.dystrybujce {
+    height: 84.3vh;
+    background:
+        linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.9)),
+        url('../pictures/background-główna.jpg') center/cover;
+}
+
 #historia {
     background:
         linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.9)),
         url('../pictures/historia.png') center/cover;
 }
 
-#historia p {
+#nie_tylko_komputer {
+    background:
+        linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.9)),
+        url('../pictures/linux\ wokół\ nas.jpeg') center/cover;
+        background-size: contain;
+}
+
+#vs {
+    background:
+        linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.9)),
+        url('../pictures/vs.webp') center/cover;
+}
+
+/* .podstrona p {
     font-size: 25px;
     text-align: left;
-}
+} */
 
 .section-title{
     text-align:center;
@@ -133,8 +153,18 @@ section{
     justify-content: center;
 }
 
-.opis-obrazek img {
+#h_obrazek img {
     max-width: 112%;
+    border-radius: 10px;
+}
+
+#n_obrazek img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#vs_obrazek img {
+    max-width: 50%;
     border-radius: 10px;
 }
 
@@ -176,7 +206,7 @@ section{
 
 .kafelek img{
     width:100%;
-    height: 300px;
+    height: 500px;
     object-fit:cover;
 }
 
