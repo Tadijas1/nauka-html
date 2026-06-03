@@ -11,6 +11,8 @@ body{
     line-height:1.6;
 }
 
+/*----------------------------------------------------------------------------------*/
+
 header{
     background:linear-gradient(135deg,#1e293b,#0f172a);
     padding:40px 10%;
@@ -69,13 +71,19 @@ nav a:hover{
     color:lightskyblue;
 }
 
+/*----------------------------------------------------------------------------------*/
+
+section{
+    padding:80px 10%;
+}
+
 .opis{
-    height:70vh;
+    height:84.3vh;
     display:flex;
-    justify-content:center;
+    justify-content: center;
     align-items:center;
     text-align:center;
-    padding:20px;
+    padding:20px 5%;
     background:
         linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.9)),
         url('../pictures/background-główna.jpg') center/cover;
@@ -87,19 +95,50 @@ nav a:hover{
         url('../pictures/historia.png') center/cover;
 }
 
-.opis-content h1{
+#historia p {
+    font-size: 25px;
+    text-align: left;
+}
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+    color:lightskyblue;
+}
+
+#tekst p{
+    width: 60%;
+    max-width: 1500px;
+}
+
+.opis-tekst h1{
     font-size:60px;
     margin-bottom:20px;
     color:lightskyblue;
 }
 
-.opis-content p{
+.opis-tekst p{
     max-width:700px;
     margin:auto;
     font-size:30px;
     text-align: justify;
     margin-bottom:30px;
 }
+
+
+.opis-obrazek {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.opis-obrazek img {
+    max-width: 112%;
+    border-radius: 10px;
+}
+
+/*----------------------------------------------------------------------------------*/
 
 .btn{
     display:inline-block;
@@ -114,17 +153,6 @@ nav a:hover{
 
 .btn:hover{
     background:white;
-}
-
-section{
-    padding:80px 10%;
-}
-
-.section-title{
-    text-align:center;
-    font-size:40px;
-    margin-bottom:50px;
-    color:lightskyblue;
 }
 
 .kafelki{
@@ -152,14 +180,16 @@ section{
     object-fit:cover;
 }
 
-.kafelek-content{
+.kafelek-tekst{
     padding:25px;
 }
 
-.kafelek-content h3{
+.kafelek-tekst h3{
     margin-bottom:15px;
     color:lightskyblue;
 }
+
+/*----------------------------------------------------------------------------------*/
 
 footer{
     background:#020617;
@@ -172,6 +202,8 @@ footer p{
     color:#94a3b8;
 }
 
+/*----------------------------------------------------------------------------------*/
+
 @media(max-width:768px){
 
     header{
@@ -179,7 +211,7 @@ footer p{
         gap:20px;
     }
 
-    .opis-content h1{
+    .opis-tekst h1{
         font-size:42px;
     }
 
